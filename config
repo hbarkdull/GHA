@@ -1,0 +1,47 @@
+{
+  "type": 1,
+  "title": "Orka GitHub Actions Runner",
+  "name": "orka-github-actions",
+  "description": "This is a description.",
+  "logo": "https://storage.googleapis.com/s.mkswft.com/RmlsZTo2ZGI3ZTFiNS0zN2U3LTQwOTctYWMwNi0xZmY4OTE1MWYwNmU=/Orka-Logo-WhiteBellyStandard.png",
+  "image": "ghcr.io/macstadium/orka-github-runner:1.1.3-amd64",
+  "note": "https://github.com/macstadium/orka-github-actions-integration/pkgs/container/orka-github-runner",
+  "categories": [
+    "CI/CD"
+  ],
+  "platform": "linux",
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "env": [
+    {
+      "name": "GITHUB_APP_ID",
+    },
+    {
+      "name": "GITHUB_APP_INSTALLATION_ID",
+    },
+    {
+      "name": "GITHUB_APP_PRIVATE_KEY",
+    },
+    {
+      "name": "GITHUB_URL",
+    },
+    {
+      "name": "ORKA_URL",
+    },
+    {
+      "name": "ORKA_TOKEN",
+    },
+    {
+      "name": "ORKA_VM_CONFIG",
+    },
+    {
+      "name": "ORKA_VM_USERNAME",
+    },
+    {
+      "name": "ORKA_VM_PASSWORD",
+    },
+    {
+      "name": "RUNNERS",
+    },
+  ]
+}
